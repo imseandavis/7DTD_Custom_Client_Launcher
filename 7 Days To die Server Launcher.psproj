@@ -1,0 +1,12 @@
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt">
+  <Version>2.1</Version>
+  <FileID>dd2ea8f4-513a-4ecd-8f67-90223306c70b</FileID>
+  <ProjectType>0</ProjectType>
+  <Folders />
+  <Files>
+    <File Build="0">Startup.pss</File>
+    <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
+    <File Build="0" ReferenceFunction="Show-7DTD_Server_Launcher_psf">7DTD Server Launcher.psf</File>
+    <File Build="0" ReferenceFunction="Show-Run_As_Admin_Notify_psf">Run As Admin Notify.psf</File>
+  </Files>
+</Project>
