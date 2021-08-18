@@ -1,0 +1,1 @@
+Use the binary if you have access to my server, otherwise download all the files and feel free to recompile in your own PowerShell Studio instance.
