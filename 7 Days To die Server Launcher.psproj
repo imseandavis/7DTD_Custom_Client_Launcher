@@ -8,5 +8,6 @@
     <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
     <File Build="0" ReferenceFunction="Show-7DTD_Server_Launcher_psf">7DTD Server Launcher.psf</File>
     <File Build="0" ReferenceFunction="Show-Run_As_Admin_Notify_psf">Run As Admin Notify.psf</File>
+    <File Build="2">.gitignore</File>
   </Files>
 </Project>
