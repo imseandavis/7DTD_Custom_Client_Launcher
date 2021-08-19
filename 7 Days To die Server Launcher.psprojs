@@ -7,5 +7,7 @@
     <File>Globals.ps1</File>
     <File>7DTD Server Launcher.psf</File>
     <File>Run As Admin Notify.psf</File>
+    <File>.gitignore</File>
+    <File>readme.md.txt</File>
   </OpenFiles>
 </ProjectState>

@@ -1,6 +1,5 @@
 ﻿<File version="3.1">
-  <Code>
-    <![CDATA[#Define a Param block to use custom parameters in the project
+  <Code><![CDATA[#Define a Param block to use custom parameters in the project
 #Param ($CustomParameter)
 
 function Main {
@@ -19,16 +18,26 @@ function Main {
 		$ConsoleOutput (Type: System.Collections.ArrayList)
 #>
 	Param ([String]$Commandline)
-		
-	#--------------------------------------------------------------------------
-	#TODO: Add initialization script here (Load modules and check requirements)
 	
 	
-	#--------------------------------------------------------------------------
-	
-	if((Show-MainForm_psf) -eq 'OK')
+	# Make Sure The Launcher Is Running As Admin
+	$id = [System.Security.Principal.WindowsIdentity]::GetCurrent()
+	$p = New-Object System.Security.Principal.WindowsPrincipal($id)
+	if ($p.IsInRole([System.Security.Principal.WindowsBuiltInRole]::Administrator))
 	{
+		#Passed
+		if((Show-7DTD_Server_Launcher_psf) -eq 'OK')
+		{
 		
+		}
+	}
+	else
+	{
+		#Failed
+		if ((Show-Run_As_Admin_Notify_psf) -eq 'OK')
+		{
+			
+		}
 	}
 	
 	$script:ExitCode = 0 #Set the exit code for the Packager
