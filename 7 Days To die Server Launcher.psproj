@@ -9,6 +9,6 @@
     <File Build="0" ReferenceFunction="Show-7DTD_Server_Launcher_psf">7DTD Server Launcher.psf</File>
     <File Build="0" ReferenceFunction="Show-Run_As_Admin_Notify_psf">Run As Admin Notify.psf</File>
     <File Build="1">.gitignore</File>
-    <File Build="2">readme.md.txt</File>
+    <File Build="2">readme.md</File>
   </Files>
 </Project>
